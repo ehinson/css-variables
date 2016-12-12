@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Swanky+and+Moo+Moo');
+
+:root {
+  --base:  #F3FFCF;
+  --spacing: 20px;
+  --blur: 5px;
+}
+html, body {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  background-color: #9A8194;
+}
+h1, h2, h3, h4 {
+  font-family: 'Swanky and Moo Moo', cursive;
+}
+
+.highlight {
+  color: var(--base);
+}
+
+.controls {
+  margin-bottom: 30px;
+}
+
+.image-wrapper {
+  text-align: center;
+}
+
+.image-wrapper img{
+  width: 300px;
+  height: auto;
+  padding: var(--spacing);
+  background: var(--base);
+  -webkit-filter: blur(var(--blur));
+  filter: blur(var(--blur));
+}
